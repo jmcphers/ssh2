@@ -19,8 +19,6 @@
     "nan": "^2.20.0"
   },
   "scripts": {
-    "install": "node install.js",
-    "rebuild": "node install.js",
     "test": "node test/test.js",
     "lint": "eslint --cache --report-unused-disable-directives --ext=.js .eslintrc.js examples lib test",
     "lint:fix": "npm run lint -- --fix"
